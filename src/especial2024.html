@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modalidades - EEAF</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="shortcut icon" href="../imagens/logo-eeaf.png" type="image/x-icon">
+</head>
+
+<body class="flex flex-col min-h-screen bg-gray-100">
+    <header class="m-4 md:m-8">
+        <div class="flex flex-col md:flex-row md:justify-between items-center">
+            <!-- logo -->
+            <a href="../index.html" class="flex items-center mb-4 md:mb-0">
+                <img src="../imagens/logo-eeaf.png" alt="Impossível carregar logo" class="w-28" />
+                <div class="ml-2 text-center">
+                    <span class="text-lg font-semibold">EE Aristófanes Fernandes</span><br />
+                    <span class="text-gray-700 text-sm">São Vicente, RN</span>
+                </div>
+            </a>
+
+            <!-- redes sociais -->
+            <div class="flex space-x-4 mb-4 md:mb-0">
+                <a href="https://www.instagram.com/e.e.aristofanes_fernandes/" target="_blank"
+                    class="flex flex-col items-center">
+                    <img src="../imagens/logo-instagram.png" alt="Logo do Instagram indisponível" class="w-6 mb-1" />
+                    <div class="text-xs">EEAF</div>
+                </a>
+                <a href="https://www.instagram.com/eeaftech/" target="_blank" class="flex flex-col items-center">
+                    <img src="../imagens/logo-instagram.png" alt="Logo do Instagram indisponível" class="w-6 mb-1" />
+                    <div class="text-xs">EEAF TECH</div>
+                </a>
+
+                <!-- <a href="#">
+                    <img src="../imagens/logo-whatsapp.png" alt="Logo do WhatsApp indisponível" class="w-6" />
+                </a> -->
+            </div>
+
+            <!-- busca -->
+            <div class="relative">
+                <input type="search" class="border border-gray-700 rounded outline-none p-2 pl-10 text-md"
+                    placeholder="Busca">
+                <img src="../imagens/lupa.png" class="absolute left-3 top-2 w-4 cursor-pointer">
+            </div>
+        </div>
+
+        <nav class="mt-4">
+            <ul class="flex flex-wrap justify-center space-x-8 text-gray-700 cursor-pointer">
+                <li><a href="#"
+                        class="hover:transition hover:duration-200 hover:text-blue-500 text-2xl text-red-500">🤶🏻🎅🏼🎄
+                        Especial 2024 🎄🎅🏼🤶🏻</a></li>
+            </ul>
+        </nav>
+        <hr class="mt-4" />
+    </header>
+
+    <main class="mx-4 md:mx-8 space-y-4 flex-grow text-gray-700">
+        <h1 class="text-3xl md:text-4xl font-bold mb-4">Lembranças...</h1>
+        <!-- lembranças -->
+
+        <!-- entrada dos estudantes -->
+        <div class="w-full max-w-full mx-auto space-y-4">
+            <div class="bg-blue-200 hover:bg-blue-300 cursor-pointer p-4 rounded shadow-md">
+                <h2 class="text-2xl font-bold mb-2 flex items-center cursor-pointer" onclick="toggleContent(this)">
+                    <span class="text-gray-700">Entrada dos estudantes</span>
+                    <span class="ml-auto transform transition-transform duration-300" id="arrow">
+                        &darr; <!-- Você pode substituir por um ícone SVG ou Font Awesome -->
+                    </span>
+                </h2>
+                <p class="text-justify hidden" style="padding:56.34% 0 0 0;position:relative;">
+                    <iframe
+                        src="https://player.vimeo.com/video/1040495493?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                        title="2024 Aula da saudade - Entrada"></iframe>
+                    <script src="https://player.vimeo.com/api/player.js"></script>
+                </p>
+            </div>
+        </div>
+
+        <!-- oscar -->
+        <div class="w-full max-w-full mx-auto space-y-4">
+            <div class="bg-blue-200 hover:bg-blue-300 cursor-pointer p-4 rounded shadow-md">
+                <h2 class="text-2xl font-bold mb-2 flex items-center cursor-pointer" onclick="toggleContent(this)">
+                    <span class="text-gray-700">Oscar</span>
+                    <span class="ml-auto transform transition-transform duration-300" id="arrow">
+                        &darr; <!-- Você pode substituir por um ícone SVG ou Font Awesome -->
+                    </span>
+                </h2>
+                <p class="text-justify hidden" style="padding:56.34% 0 0 0;position:relative;">
+                    <iframe
+                        src="https://player.vimeo.com/video/1040501749?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                        title="2024 Aula da saudade - Oscar"></iframe>
+                    <script src="https://player.vimeo.com/api/player.js"></script>
+                </p>
+            </div>
+        </div>
+
+        <!-- retrospectiva -->
+        <div class="w-full max-w-full mx-auto space-y-4">
+            <div class="bg-blue-200 hover:bg-blue-300 cursor-pointer p-4 rounded shadow-md">
+                <h2 class="text-2xl font-bold mb-2 flex items-center cursor-pointer" onclick="toggleContent(this)">
+                    <span class="text-gray-700">Retrospectiva</span>
+                    <span class="ml-auto transform transition-transform duration-300" id="arrow">
+                        &darr; <!-- Você pode substituir por um ícone SVG ou Font Awesome -->
+                    </span>
+                </h2>
+                <p class="text-justify hidden" style="padding:56.34% 0 0 0;position:relative;">
+                    <iframe
+                        src="https://player.vimeo.com/video/1040501806?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                        title="2024 Aula da saudade - Retrospectiva"></iframe>
+                    <script src="https://player.vimeo.com/api/player.js"></script>
+                </p>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="mt-auto px-4 md:px-8 pb-2 pt-4">
+        <hr class="mb-4">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center mb-4 md:mb-0">
+                <a href="../index.html" class="flex items-center">
+                    <img src="../imagens/logo-eeaf.png" alt="Impossível carregar logo" class="w-20 md:w-24" />
+                    <div class="ml-2 text-center">
+                        <span class="font-semibold">EE Aristófanes Fernandes</span><br />
+                        <span class="text-gray-700 text-sm">São Vicente, RN</span>
+                    </div>
+                </a>
+            </div>
+            <div class="text-center text-sm mb-4 md:mb-0">
+                Governo do Estado do Rio Grande do Norte <br />
+                Secretaria de Estado da Educação e da Cultura <br />
+                9ª Diretoria Regional de Educação e da Cultura <br />
+            </div>
+            <div class="text-sm">
+                <span class="font-bold">Escola Estadual Aristófanes Fernandes</span><br />
+                Ensino Fundamental II, Ensino Médio e Ensino Médio Profissionalizante <br />
+                Rua João Paulino de Souza, 162, São Vicente, RN. CEP: 59.340-000 <br />
+            </div>
+        </div>
+    </footer>
+
+    <div class="bg-blue-200 text-gray-700 text-center h-9 flex items-center justify-center">
+        &copy; 2024 Escola Estadual Aristófanes Fernandes. Todos os direitos reservados.
+    </div>
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
